@@ -6,16 +6,19 @@
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
   background-color: white;
-  width: 500px;
+  width: 100%; /* changed to 100% */
+  max-width: 600px;
   gap: 30px;
 }
+
 
 .cart-item-image {
   width: 200px;
   height: 200px;
-  /* object-fit: contain; */
+  object-fit: contain; /* ensures images scale properly */
   margin-right: 20px;
 }
+
 
 .cart-item-details {
   flex-grow: 1;
